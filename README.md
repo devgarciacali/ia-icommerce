@@ -64,7 +64,4 @@ Crear una plataforma de comercio electrónico sencilla que permita:
 | **API de IA** | Respuestas de Ia (groq) |
 | **Blade** | Vistas del sistema |
 
----
-
-## 🏗️ Arquitectura del Proyecto
 
