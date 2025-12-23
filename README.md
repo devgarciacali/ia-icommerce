@@ -59,9 +59,9 @@ Crear una plataforma de comercio electrónico sencilla que permita:
 |----------|-----|
 | **Laravel** | Backend y estructura MVC |
 | **Tailwind CSS** | Diseño responsivo y moderno |
-| **Prism** | Panel administrativo |
+| **Prism** | libreria para integrar la IA |
 | **MySQL** | Base de datos |
-| **API de IA** | Chatbot y recomendaciones |
+| **API de IA** | Respuestas de Ia (groq) |
 | **Blade** | Vistas del sistema |
 
 ---
