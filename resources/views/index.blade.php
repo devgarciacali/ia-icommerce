@@ -35,7 +35,7 @@
                                 </p>
                             </div>
 
-                            {{-- <form method="POST" action="/product-review">
+                            <form method="POST" action="/product-review">
                                 @csrf
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
                                 <!-- Botón de review inteligente con emoji de I.A. -->
@@ -43,7 +43,7 @@
                                     <span class="text-sm">¿Qué opina la IA?</span>
                                     <span class="text-xl">&#128526;</span>
                                 </button>
-                            </form> --}}
+                            </form>
                         </div>
                     </div>
                 @endforeach
