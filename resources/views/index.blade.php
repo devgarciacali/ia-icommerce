@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>AI Reviews</title>
+    <title>Icommerce</title>
 </head>
+
 <body>
     <div class="container mx-auto">
-        <h1 class="text-4xl font-bold text-center">AI Reviews</h1>
+        <h1 class="text-4xl font-bold text-center py-1.5">Icommerce Basico Con IA</h1>
         <div class="flex flex-col items-center justify-center">
             <h2>Grid de Productos</h2>
+            <br>
+            <br>
             <div class="grid grid-cols-3 gap-4">
                 @foreach ($products as $product)
                     <div class="bg-white shadow-md rounded-lg overflow-hidden">
@@ -51,7 +55,8 @@
         </div>
 
         <!-- Modal para mostrar la reseña de la IA -->
-        <x-review-modal/>
+        <x-review-modal />
 
 </body>
+
 </html>

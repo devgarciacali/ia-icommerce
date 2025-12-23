@@ -27,7 +27,7 @@
                 const formData = new FormData(form);
                 const productId = formData.get('product_id');
                 // Indicador de carga (puedes mejorarlo con un spinner)
-                openModal('Generando reseña con IA... ⏳');
+                openModal('Cargando...');
                 try {
                     const response = await fetch('/product-review', {
                         method: 'POST',

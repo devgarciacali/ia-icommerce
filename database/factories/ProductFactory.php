@@ -28,7 +28,7 @@ class ProductFactory extends Factory
             'rating'=>fake()->randomFloat(1, 1, 5),
             'stock'=>fake()->numberBetween(10, 200),
             'quantity_sold'=>fake()->numberBetween(0, 200),
-            'featured_image'=>"https://placehold.co/600x400/orange/white?text=$imageUlr"
+            'featured_image'=>"https://placehold.co/600x400/black/white?text=$imageUlr"
         ];
     }
 }
