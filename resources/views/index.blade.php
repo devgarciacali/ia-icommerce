@@ -44,7 +44,7 @@
                                 <!-- Botón de review inteligente con emoji de I.A. -->
                                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                     <span class="text-sm">¿Qué opina la IA?</span>
-                                    <span class="text-xl">&#128526;</span>
+                                   
                                 </button>
                             </form>
                         </div>
